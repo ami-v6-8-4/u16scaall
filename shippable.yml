@@ -1,5 +1,8 @@
 language: scala
 
+runtime:
+  nodePool: dynamic__x86_64__Ubuntu_14_04__c4_large
+  
 scala:
   - 2.11.12 
   - 2.12.6
